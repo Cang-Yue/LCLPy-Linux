@@ -1,5 +1,6 @@
-# LCLPy-Linux
+# LCLPy-Linux: A CLI Launcher For LunarClient In Linux
 
+## Fork From https://github.com/Aetopia/LCLPy
 ## Update In 2022/04/07
 
 ## How To Build
