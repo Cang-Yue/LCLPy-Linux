@@ -20,9 +20,9 @@ usage: lcl [-v | --version ] <version>
 `--config` Edit lcl Config (need install nano)
 
 ## How To Build
-install python3
+install `python3`
 ```
-sudo apt install `python3`
+sudo apt install python3
 ```
 install `pyinstaller`
 ```
