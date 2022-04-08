@@ -1,4 +1,6 @@
 # LCLPy-Linux: A CLI Launcher For LunarClient In Linux
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCang-Yue%2FLCLPy-Linux.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FCang-Yue%2FLCLPy-Linux?ref=badge_shield)
+
 
 ## Fork From https://github.com/Aetopia/LCLPy
 ## Update In 2022/04/07
@@ -34,3 +36,7 @@ run build.sh
 ```
 You can find 'lcl' file in `./dist/` and put into $PATH dir
 LCL config file in `$HOME/.lcl/Opinion.ini`
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCang-Yue%2FLCLPy-Linux.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FCang-Yue%2FLCLPy-Linux?ref=badge_large)
