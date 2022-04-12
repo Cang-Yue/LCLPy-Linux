@@ -10,11 +10,13 @@ def Launch(Version, Server, Debug):
     # Read Values from Options.ini
     Server = Server.split()
     Config=config.ConfigRead(Version)
+
     # Set the Asset Index
     if Version=="1.7":
         AssetIndex="1.7.10"
     else:
         AssetIndex=Version
+	
     # Cosmetics Toggle    
     if Config[0]=="On":
         Cosmetics_Path=HOME+"/.lunarclient/textures"
@@ -30,6 +32,7 @@ def Launch(Version, Server, Debug):
 	"-Djna.boot.library.path="+HOME+"/.lunarclient/offline/"+Version+"/natives",
 	"--add-opens",
 	"java.base/java.io=ALL-UNNAMED"]
+	
     Launch_2=["-Djava.library.path="+HOME+"/.lunarclient/offline/"+Version+"/natives",
         "-XX:+DisableAttachMechanism",
 	"-cp",

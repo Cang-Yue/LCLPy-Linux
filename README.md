@@ -1,7 +1,10 @@
 # LCLPy-Linux: A CLI Launcher For LunarClient In Linux
 
 ## Fork From https://github.com/Aetopia/LCLPy
-## Update In 2022/04/07
+
+## Update In 2022/04/12
+* Support 1.17 1.18.1 1.18.2
+* If you want to use the latest version, please remove the old Opinion.ini
 
 ## How To Use
 ```
