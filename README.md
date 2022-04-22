@@ -40,4 +40,5 @@ run build.sh
 ./build.sh
 ```
 You can find 'lcl' file in `./dist/` and put into $PATH dir
+
 LCL config file in `$HOME/.lcl/Opinion.ini`
