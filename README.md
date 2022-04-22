@@ -2,6 +2,10 @@
 
 ## Fork From https://github.com/Aetopia/LCLPy
 
+## Known Bugs
+1. Cant run 1.7
+2. Can run 1.18.x but no sounds
+
 ## Update In 2022/04/12
 * Support 1.17 1.18.1 1.18.2
 * If you want to use the latest version, please remove the old Opinion.ini
