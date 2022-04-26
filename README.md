@@ -2,13 +2,9 @@
 
 ## Fork From https://github.com/Aetopia/LCLPy
 
-## Known Bugs
-1. Cant run 1.7
-2. Can run 1.18.x but no sounds
-
-## Update In 2022/04/12
-* Support 1.17 1.18.1 1.18.2
-* If you want to use the latest version, please remove the old Opinion.ini
+## Update In 2022/04/26
+* Fix 1.7 crash bug
+* Fix 1.18.x sound bug
 
 ## How To Use
 ```
@@ -35,10 +31,9 @@ install `pyinstaller`
 ```
 pip install pyinstaller
 ```
-run build.sh
+run `build.sh`
 ```
 ./build.sh
 ```
 You can find 'lcl' file in `./dist/` and put into $PATH dir
-
 LCL config file in `$HOME/.lcl/Opinion.ini`
